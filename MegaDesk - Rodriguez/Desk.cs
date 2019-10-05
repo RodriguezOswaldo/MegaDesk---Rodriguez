@@ -14,6 +14,8 @@ namespace MegaDesk___Rodriguez
         int numberDrawer { get; set; }
         DesktopMaterials SurfaceMaterial { get; set; }
 
+        double deskSize { get; set; }
+
     }
     enum DesktopMaterials
     {

@@ -9,10 +9,10 @@ namespace MegaDesk___Rodriguez
 {
     class DeskQuote
     {
-        string customerName;
-        DateTime QuoteDate;
-        //trying to create an instance of the Desk class.
-        //Desk Desk = new Desk();
+       public string customerName;
+       public DateTime QuoteDate;
+        //create an instance of the Desk class.
+       public Desk Desk = new Desk();
 
         //Pricing Structure Variables
         const double DRAWER_PRICE = 50;
@@ -29,6 +29,10 @@ namespace MegaDesk___Rodriguez
         const int _5_DAYS = 5;
         const int _7_DAYS = 7;
 
+        //RushOrder
+        public double rushOrderDays;
+        public double rushOrderPrice;
+        //Surface Material Price
         double materialPrice = 0;
 
         public DeskQuote(double width, double depth, int numberDrawer, int surfaceMaterials)
