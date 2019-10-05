@@ -12,7 +12,7 @@ namespace MegaDesk___Rodriguez
         string customerName;
         DateTime QuoteDate;
         //trying to create an instance of the Desk class.
-        Desk Desk = new Desk();
+        //Desk Desk = new Desk();
 
         //Pricing Structure Variables
         const double DRAWER_PRICE = 50;
