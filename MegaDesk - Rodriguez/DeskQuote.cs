@@ -47,7 +47,7 @@ namespace MegaDesk___Rodriguez
         //Final Price
         double finalPrice;
 
-        public DeskQuote(string theCustomer, DateTime quoteDate, double Width, double Depth, int drawers, Desk.DesktopMaterials surfaceMaterials, int rushOrderDays)
+        public DeskQuote(string theCustomer, DateTime quoteDate, double Width, double Depth, int drawers,  DesktopMaterials surfaceMaterials, int rushOrderDays)
         {
             customerName = theCustomer;
             QuoteDate = quoteDate;
@@ -61,9 +61,9 @@ namespace MegaDesk___Rodriguez
 
         }
 
-        private int ComputeQuote()
+        public int ComputeQuote()
         {
-
+            materialPrice =  BASE_PRICE * DSKTP_SURFACE_AREA_PRICE + (DRAWER_PRICE * numberdrawer) + materialprice + rushorderprice;
         }
 
       

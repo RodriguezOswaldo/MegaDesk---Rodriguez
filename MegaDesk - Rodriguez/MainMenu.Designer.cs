@@ -70,7 +70,7 @@
             this.ViewSearchQuotesButton.Name = "ViewSearchQuotesButton";
             this.ViewSearchQuotesButton.Size = new System.Drawing.Size(158, 62);
             this.ViewSearchQuotesButton.TabIndex = 3;
-            this.ViewSearchQuotesButton.Text = "Search Quotes";
+            this.ViewSearchQuotesButton.Text = "Exit";
             this.ViewSearchQuotesButton.UseVisualStyleBackColor = true;
             this.ViewSearchQuotesButton.Click += new System.EventHandler(this.ViewSearchQuotesButton_Click);
             // 
