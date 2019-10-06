@@ -9,15 +9,15 @@ namespace MegaDesk___Rodriguez
 
     class Desk
     {
-        double width { get; set; }
-        double depth { get; set; }
-        int numberDrawer { get; set; }
-        DesktopMaterials SurfaceMaterial { get; set; }
+            public double Width { get; set; }
+            public double Depth { get; set; }
+            public int NumberDrawer { get; set; }
+            public DesktopMaterials SurfaceMaterial { get; set; }
 
-        double deskArea{ get; set; }
+            public double DeskArea{ get; set; }
 
     }
-    enum DesktopMaterials
+    public enum DesktopMaterials
     {
         Oak = 200,
         Laminate = 100,
